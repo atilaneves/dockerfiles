@@ -1,3 +1,3 @@
 FROM atilaneves/arch-siglevel
-pacman --noconfirm --needed -Syu
-pacman --noconfirm --needed -S dlang-dmd dub git
+RUN pacman --noconfirm --needed -Syu
+RUN pacman --noconfirm --needed -S dlang-dmd dub git
